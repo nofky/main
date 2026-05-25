@@ -31,16 +31,21 @@ document.head.appendChild(style);
 
 // 2. MEMUAT INJECT HEADER & FOOTER OTOMATIS SETELAH DOM SIAP
 document.addEventListener("DOMContentLoaded", function() {
-    // Inject Header di bagian paling atas body
-    const headerHtml = `
-        <header>
-            <h1>LINK ALTERNATIF RECOGNIZED GROUP</h1>
-            <p>Selamat datang di WL4 PORTAL. Kami menyediakan akses langsung, aman, ringan, dan mobile-friendly untuk seluruh layanan resmi dari Recognized Group.</p>
-        </header>
-    `;
-    document.body.insertAdjacentHTML('afterbegin', headerHtml);
+    // Cek apakah pengunjung sedang membuka halaman 404
+    const is404Page = window.location.pathname.includes('404.html');
 
-    // Inject Footer di bagian paling bawah body
+    // Inject Header (Hanya jika BUKAN halaman 404)
+    if (!is404Page) {
+        const headerHtml = `
+            <header>
+                <h1>LINK ALTERNATIF RECOGNIZED GROUP</h1>
+                <p>Selamat datang di WL4 PORTAL. Kami menyediakan akses langsung, aman, ringan, dan mobile-friendly untuk seluruh layanan resmi dari Recognized Group.</p>
+            </header>
+        `;
+        document.body.insertAdjacentHTML('afterbegin', headerHtml);
+    }
+
+    // Inject Footer (Tetap muncul di semua halaman termasuk 404)
     const footerHtml = `<footer>© 2026 WL4 Access Portal</footer>`;
     document.body.insertAdjacentHTML('beforeend', footerHtml);
 });
