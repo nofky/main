@@ -32,8 +32,8 @@ document.head.appendChild(style);
 
 // 2. MEMUAT INJECT HEADER, MENU, & FOOTER OTOMATIS
 document.addEventListener("DOMContentLoaded", function() {
-    // Cek apakah pengunjung sedang membuka halaman 404
-    const is404Page = window.location.pathname.includes('404.html');
+    // Cek apakah di halaman ini ada elemen kotak 404 (class "box")
+    const is404Page = document.querySelector('.box') !== null;
 
     // Inject Header (Hanya jika BUKAN halaman 404)
     if (!is404Page) {
