@@ -18,9 +18,10 @@ style.textContent = `
   .info-box{background:#111a2e; padding:22px; border-radius:14px; margin-top:40px;}
   .info-box h2{margin-bottom:10px; font-size:20px;}
   .info-box p{color:#cbd5e1; font-size:13px; margin-bottom:12px;}
-  .menu{margin-top:14px;}
-  .menu a{color:#94a3b8; text-decoration:none; margin-right:14px; font-size:13px;}
-  footer{margin-top:45px; padding:20px; text-align:center; border-top:1px solid rgba(255,255,255,0.05); color:#64748b; font-size:12px;}
+  .menu{margin-top:20px; text-align:center;}
+  .menu a{display:inline-block; color:#94a3b8; text-decoration:none; margin:5px 10px; font-size:14px; transition:0.2s;}
+  .menu a:hover{color:#fff;}
+  footer{margin-top:30px; padding:20px; text-align:center; border-top:1px solid rgba(255,255,255,0.05); color:#64748b; font-size:12px;}
   @media(max-width:600px){
     header h1{font-size:26px;}
     .group-title{font-size:20px;}
@@ -29,7 +30,7 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-// 2. MEMUAT INJECT HEADER & FOOTER OTOMATIS SETELAH DOM SIAP
+// 2. MEMUAT INJECT HEADER, MENU, & FOOTER OTOMATIS
 document.addEventListener("DOMContentLoaded", function() {
     // Cek apakah pengunjung sedang membuka halaman 404
     const is404Page = window.location.pathname.includes('404.html');
@@ -45,7 +46,16 @@ document.addEventListener("DOMContentLoaded", function() {
         document.body.insertAdjacentHTML('afterbegin', headerHtml);
     }
 
-    // Inject Footer (Tetap muncul di semua halaman termasuk 404)
-    const footerHtml = `<footer>© 2026 WL4 Access Portal</footer>`;
-    document.body.insertAdjacentHTML('beforeend', footerHtml);
+    // Inject Menu Navigasi Global dan Footer di bagian bawah body
+    const footerComponentHtml = `
+        <div class="menu">
+            <a href="/index.html">Homepage</a>
+            <a href="/about/index.html">Tentang</a>
+            <a href="/faq/index.html">FAQ</a>
+            <a href="/update/index.html">Update</a>
+            <a href="/contact/index.html">Kontak</a>
+        </div>
+        <footer>© 2026 WL4 Access Portal</footer>
+    `;
+    document.body.insertAdjacentHTML('beforeend', footerComponentHtml);
 });
