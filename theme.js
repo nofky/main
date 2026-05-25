@@ -49,11 +49,11 @@ document.addEventListener("DOMContentLoaded", function() {
     // Inject Menu Navigasi Global dan Footer di bagian bawah body
     const footerComponentHtml = `
         <div class="menu">
-            <a href="/index.html">Homepage</a>
-            <a href="/about/index.html">Tentang</a>
-            <a href="/faq/index.html">FAQ</a>
-            <a href="/update/index.html">Update</a>
-            <a href="/contact/index.html">Kontak</a>
+            <a href="/">Beranda</a>
+            <a href="/about">Tentang</a>
+            <a href="/faq">FAQ</a>
+            <a href="/update">Update</a>
+            <a href="/contact">Kontak</a>
         </div>
         <footer>© 2026 WL4 Access Portal</footer>
     `;
