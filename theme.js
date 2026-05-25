@@ -54,6 +54,8 @@ document.addEventListener("DOMContentLoaded", function() {
             <a href="/faq">FAQ</a>
             <a href="/update">Update</a>
             <a href="/contact">Kontak</a>
+            <a href="https://wl4.link">Link Alternatif</a>
+
         </div>
         <footer>© 2026 WL4 Access Portal</footer>
     `;
