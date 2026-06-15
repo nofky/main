@@ -48,6 +48,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Inject Menu Navigasi Global dan Footer di bagian bawah body
     const footerComponentHtml = `
+        <div class="info-box">
+
+         <h2>Tentang WL4 Portal</h2>
+
+          <p>
+        WL4 Access Portal menyediakan kumpulan link alternatif resmi dan link login wap terupdate untuk seluruh jaringan Recognized Group. Kami mempermudah Anda mengakses situs terpercaya bebas blokir internet positif seperti 4DPRIZE, INDOPOOLS, INDO4DPOOLS, SHIO88, ANGKANET4D, INDOVEGAS4D, ANUGERAHTOTO, BINTANG4DP, AKSARA4D, dan 4DSUPER. Dapatkan juga akses langsung ke grup populer lainnya termasuk KAISARTOTO88, WLATOGEL88, VIP4DP, VEGAS6D, VICTORY4DP, VIRAL4DP, VVIPBOSS, KISARANTOTO, serta KISARAN4D yang selalu aktif 24 jam.
+          </p>
+
+        </div>
+
         <div class="menu">
             <a href="/">Beranda</a>
             <a href="/about">Tentang</a>
