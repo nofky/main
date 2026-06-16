@@ -54,19 +54,19 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (currentHost.includes("indopools")) {
         dynamicTitle = "Tentang INDOPOOLS";
         dynamicDesc = "INDOPOOLS menyediakan gerbang alternatif resmi untuk memudahkan akses ke arena judi toto terpercaya Recognized Group. Didukung infrastruktur tangguh, situs jembatan ini menggaransi kelancaran navigasi daftar akun baru dan link login wap harian Anda.";
-    } else if (currentHost.includes("indo4dpools")) {
+    } else if (currentHost.includes("indo-4dp")) {
         dynamicTitle = "Tentang INDO4DPOOLS";
         dynamicDesc = "INDO4DPOOLS hadir sebagai platform tebak angka modern yang sangat responsif. Halaman perantara resmi ini memberikan jaminan link login alternatif wap dan web bebas nawala dengan server ringan demi kenyamanan member setia 4DPrize Group.";
-    } else if (currentHost.includes("shio88")) {
+    } else if (currentHost.includes("toshio88")) {
         dynamicTitle = "Tentang SHIO88";
         dynamicDesc = "SHIO88 merupakan link alternatif resmi dari 4DPrize Group yang menyajikan kemudahan pendaftaran akun toto secara kilat. Server kami dirancang mobile-friendly untuk memastikan login versi wap Anda berjalan mulus tanpa hambatan internet positif.";
-    } else if (currentHost.includes("angkanet4d")) {
+    } else if (currentHost.includes("angkanet88")) {
         dynamicTitle = "Tentang ANGKANET4D";
         dynamicDesc = "ANGKANET4D adalah bagian dari jaringan Recognized Group yang menyuguhkan akses link login wap resmi anti-blokir. Platform perantara ini mengutamakan kecepatan akses data sehingga memudahkan para pemain melakukan pasang taruhan dan daftar baru.";
-    } else if (currentHost.includes("indovegas4d")) {
+    } else if (currentHost.includes("indovegas88")) {
         dynamicTitle = "Tentang INDOVEGAS4D";
         dynamicDesc = "INDOVEGAS4D menyajikan pengalaman navigasi taruhan toto kelas dunia dari 4DPrize Group. Gunakan jalur alternatif resmi di halaman static ini untuk melakukan pendaftaran member baru atau masuk langsung ke sistem login versi mobile wap yang super stabil.";
-    } else if (currentHost.includes("anugerahtoto")) {
+    } else if (currentHost.includes("anugerah")) {
         dynamicTitle = "Tentang ANUGERAHTOTO";
         dynamicDesc = "ANUGERAHTOTO merupakan situs penyedia link alternatif resmi terpercaya yang berada di bawah naungan 4DPrize Group. Memberikan proteksi keamanan tingkat tinggi untuk akses login wap dan link daftar baru agar terhindar dari pemblokiran siber.";
     } else if (currentHost.includes("bintang4dp")) {
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     
     // ==================== GRUP 88 (7 BRAND) ====================
-    else if (currentHost.includes("indolottery88")) {
+    else if (currentHost.includes("idlottery88")) {
         dynamicTitle = "Tentang INDOLOTTERY88";
         dynamicDesc = "INDOLOTTERY88 adalah situs taruhan togel online terpercaya di bawah bendera 88 Group yang menyediakan pasaran terlengkap dengan akses link alternatif login dan daftar versi wap super cepat serta aman dari blokir nawala.";
     } else if (currentHost.includes("dunialottery88")) {
@@ -96,25 +96,25 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (currentHost.includes("dim88")) {
         dynamicTitle = "Tentang DIM88";
         dynamicDesc = "DIM88 adalah pusat link alternatif resmi terupdate persembahan 88 Group. Memudahkan para pemain judi togel online mengakses menu pendaftaran akun baru dan login wap melalui rute server tercepat.";
-    } else if (currentHost.includes("kaisartoto88")) {
+    } else if (currentHost.includes("kaisartoto88new")) {
         dynamicTitle = "Tentang KAISARTOTO88";
         dynamicDesc = "KAISARTOTO88 adalah ikon tepercaya dari 88 Group yang menghadirkan link login alternatif wap anti blokir. Melalui rute khusus ini, Anda dapat melakukan registrasi akun baru judi toto dengan jaminan kelancaran akses 24 jam penuh.";
-    } else if (currentHost.includes("wlatogel88")) {
+    } else if (currentHost.includes("wlatogel88new")) {
         dynamicTitle = "Tentang WLATOGEL88";
         dynamicDesc = "WLATOGEL88 menyuguhkan fasilitas akses login versi wap mobile tercepat dari 88 Group. Gunakan jembatan link alternatif resmi di sini untuk pendaftaran akun baru secara aman dan terhindar dari pemblokiran internet positif.";
     }
 
     // ==================== GRUP VIP4DP (5 BRAND) ====================
-    else if (currentHost.includes("vip4dp")) {
+    else if (currentHost.includes("vip4d")) {
         dynamicTitle = "Tentang VIP4DP";
         dynamicDesc = "VIP4DP merupakan platform judi terkemuka dari VIP4DP Group yang legendaris. Dapatkan kenyamanan pendaftaran dan login rute alternatif wap secara langsung melalui server jembatan kami yang super ringan dan kebal sensor siber.";
-    } else if (currentHost.includes("vegas6d")) {
+    } else if (currentHost.includes("vegas-6d")) {
         dynamicTitle = "Tentang VEGAS6D";
         dynamicDesc = "VEGAS6D menyajikan gerbang link alternatif resmi dari VIP4DP Group bagi para pemburu jackpot toto. Proses masuk login wap dan registrasi akun baru berjalan instan berkat optimasi server static berperforma tinggi.";
-    } else if (currentHost.includes("victory4dp")) {
+    } else if (currentHost.includes("victory4d")) {
         dynamicTitle = "Tentang VICTORY4DP";
         dynamicDesc = "VICTORY4DP memfasilitasi kebutuhan akses taruhan online para member VIP4DP Group tanpa hambatan internet positif. Temukan jalur login wap mobile serta pendaftaran id baru yang resmi dan terupdate di sini.";
-    } else if (currentHost.includes("viral4dp")) {
+    } else if (currentHost.includes("viral4d")) {
         dynamicTitle = "Tentang VIRAL4DP";
         dynamicDesc = "VIRAL4DP adalah link alternatif resmi terpercaya persembahan VIP4DP Group yang tengah populer. Akses pendaftaran akun judi togel dan link masuk login wap dipastikan aman melalui jalur server proxy cadangan ini.";
     } else if (currentHost.includes("vvipboss")) {
